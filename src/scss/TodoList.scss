@@ -1,0 +1,27 @@
+.todo-list {
+  .title {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+  }
+
+  .list-group-item .show-mode {
+    display: flex;
+    justify-content: space-between;
+
+
+
+    span {
+      line-height: 38px;
+    }
+
+    button {
+      height: 38px;
+    }
+  }
+
+  .msg-empty {
+    padding: 10px;
+    color: red;
+  }
+}
